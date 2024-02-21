@@ -1,0 +1,7 @@
+
+{
+    "AWS_ACCOUNT_NUMBER": "468330611790",
+    "AWS_REGION": "ca-central-1",
+    "vpcId": "your_vpc_id",
+    "securityGroupId": "your_security_group_id"
+}

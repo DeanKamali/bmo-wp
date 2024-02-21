@@ -1,0 +1,40 @@
+{
+  "vpc-provider:account=468330611790:filter.isDefault=true:region=ca-central-1:returnAsymmetricSubnets=true": {
+    "vpcId": "vpc-dfd2b4b7",
+    "vpcCidrBlock": "172.31.0.0/16",
+    "ownerAccountId": "468330611790",
+    "availabilityZones": [],
+    "subnetGroups": [
+      {
+        "name": "Public",
+        "type": "Public",
+        "subnets": [
+          {
+            "subnetId": "subnet-ef841387",
+            "cidr": "172.31.16.0/20",
+            "availabilityZone": "ca-central-1a",
+            "routeTableId": "rtb-eac69482"
+          },
+          {
+            "subnetId": "subnet-360cac4c",
+            "cidr": "172.31.0.0/20",
+            "availabilityZone": "ca-central-1b",
+            "routeTableId": "rtb-eac69482"
+          },
+          {
+            "subnetId": "subnet-5711430b",
+            "cidr": "172.31.32.0/20",
+            "availabilityZone": "ca-central-1d",
+            "routeTableId": "rtb-eac69482"
+          }
+        ]
+      }
+    ]
+  },
+  "ami:account=468330611790:filters.image-type.0=machine:filters.name.0=amzn2-ami-hvm-*-x86_64-ebs:filters.state.0=available:owners.0=amazon:region=ca-central-1": "ami-0ea8943cbebb7b9eb",
+  "availability-zones:account=468330611790:region=ca-central-1": [
+    "ca-central-1a",
+    "ca-central-1b",
+    "ca-central-1d"
+  ]
+}
